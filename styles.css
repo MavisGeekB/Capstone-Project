@@ -74,7 +74,12 @@ h2{
         margin-right:auto;
         width:80%;
     }
-    
+    a:visited{
+    background-repeat:no-repeat;
+    background-position:right-center;
+    height:20px;
+    padding-bottom:2px;
+    }
     
     .footer{
         width:100%;
@@ -82,15 +87,7 @@ h2{
         height:50px;
         position:fixed;
         }
-    
-    input[type=text]{
-    width:100%;
-    padding:10px 10px;
-    margin:8px 0;
-    box-sizing:border-box;
-    }
-   
-   button{
+     button{
     background-color:blue;
     color:white;
     padding:10px 20px;
@@ -108,18 +105,7 @@ h2{
     color:black;
     padding:24px 32px;
    }
-   .navbar ul{
-    text-align:center;
-    padding:10px;
-    padding-left:30px;
-    padding-top:4px;
-    }
-    .navbar ul li{
-       display:inline;
-       margin:50px;
-       font-size:20px;
-        }
-      
+  
 
 
     
